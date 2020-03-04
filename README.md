@@ -1,2 +1,0 @@
-# ema-kalkulaator
-Kalkulaator emadele
