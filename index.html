@@ -1,36 +1,68 @@
 
+
 <!DOCTYPE html>
 <html lang="ee">
 
+
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kalkulaator</title>
     <link rel="stylesheet" href="style.css"/>
-
+    <b>MTÜ EMALE</b>
 </head>
 
-<body style="background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-047-fly-high.png); background-size: 100%;" style="width: max-content;">
-Valige amet:
-<div class="container">
-    <select id="jobSelect">
-        <option value="36">Puhastusteenindaja</option>
-        <option value="28">Ehitaja</option>
-        <option value="39">Kokk</option>
-        <option value="23">Hooldaja</option>
-        <option value="11">Õpetaja</option>
-        <option value="18">Juuksur</option>
+<body style="background-image: url *///https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-047-fly-high.png); background-size: 100%;" style="width: max-content;">
+
+    <div class="box1">
+        <div id="totalprice">
+            <div id=total>0€ Kokku</div>
+
+            </div>
+            <div id=testbox>
+        <select id="jobSelect">
+            <option style="display:none;" selected>Valige sobiv ametikoht</option>
+            <option value="36">Puhastusteenindaja</option>
+            <option value="28">Ehitaja</option>
+            <option value="39">Kokk</option>
+            <option value="23">Hooldaja</option>
+            <option value="11">Õpetaja</option>
+            <option value="18">Juuksur</option>
+            <option value="22">Psühholoog</option>
+            <option value="13">Põetaja</option>
+            <option value="21">Teenindaja</option>
+            <option value="19">Raamatupidaja</option>
+            <option value="36">Koristaja</option>
+            <option value="39">Nõudepesija</option>
+            <option value="15">Nõustaja</option>
+            <option value="35">Autojuht</option>
+            <option value="38">Logistik</option>
+            <option value="13">Arst</option>
+            <option value="13">Põetaja</option>
+            <option value="28">Santehnik</option>
+            <option value="36">Pesupesija</option>
+            <option value="36">Ehitus viimistleja</option>
+            <option value="23">Tugiisik</option>
+        
+        </select>
+
+<input placeholder="Tunnid" type="number" id="testinput"></input>
+<div id="night">
+    <input type="checkbox" id="myCheck" onclick="myFunction()"> öötöö </input>
+</div>
+    <button id="button">Arvuta</button>
+</div>
+    <div id="root"></div>
+
+        <div id="addedtotal"></div>
+
+
+    <div id="history"></div>
+    <script src="app.js"></script>
     </select>
 </div> 
 
-Tunnid:
-
-<input id="testinput"></input>
-    <button id="testbutton">testbutton</button>
-    <div id="root"></div>
-    <div id="total"></div>
-    <script src="app.js"></script>
-    </div>
 </body>
 </html>
