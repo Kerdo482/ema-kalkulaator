@@ -12,8 +12,8 @@ Statistikaameti anmded on läbi korrutatud koefitsendiga 1.644, mis on tuletatud
 
 ## Arendajad
 -Kerdo Salujärv TA-19
--Robin Kukk 
--Hans-Kristjan Pavelson 
--Inge Vent
--Karli Jakunin
--Siivi Paavel
+-Robin Kukk TAK-18
+-Hans-Kristjan Pavelson TAK-18
+-Inge Vent TA-19
+-Karli Jakunin TA-19
+-Siivi Pahapill TA-18
