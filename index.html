@@ -1,14 +1,19 @@
 
 <!DOCTYPE html>
 <html lang="ee">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Kalkulaator</title>
+    <link rel="stylesheet" href="style.css"/>
+
 </head>
-<body>
+
+<body style="background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-047-fly-high.png); background-size: 100%;" style="width: max-content;">
 Valige amet:
+<div class="container">
     <select id="jobSelect">
         <option value="36">Puhastusteenindaja</option>
         <option value="28">Ehitaja</option>
@@ -17,11 +22,15 @@ Valige amet:
         <option value="11">Õpetaja</option>
         <option value="18">Juuksur</option>
     </select>
+</div> 
+
 Tunnid:
+
 <input id="testinput"></input>
     <button id="testbutton">testbutton</button>
     <div id="root"></div>
     <div id="total"></div>
     <script src="app.js"></script>
+    </div>
 </body>
 </html>
