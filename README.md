@@ -15,5 +15,5 @@ Statistikaameti anmded on läbi korrutatud koefitsendiga 1.644, mis on tuletatud
 -Robin Kukk 
 -Hans-Kristjan Pavelson 
 -Inge Vent
--Karl Jakunin
+-Karli Jakunin
 -Siivi Paavel
