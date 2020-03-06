@@ -8,7 +8,7 @@ Statistikaameti anmded on läbi korrutatud koefitsendiga 1.644, mis on tuletatud
 [Figma link] (https://www.figma.com/file/JtX4k1sTjqefWGvCBe18gc/Untitled)
 
 ## Veebileht
-[Live verison]
+[Live verison] (http://projekt.tak18pavelson.itmajakas.ee/)
 
 ## Arendajad
 -Kerdo Salujärv TA-19
